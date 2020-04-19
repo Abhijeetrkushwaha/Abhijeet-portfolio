@@ -375,7 +375,7 @@ nav {
   position: relative;
   border:none;
   border:1px solid var(--main-font-color);
-  box-shadow: inset 0 0 0 1px var(--main-font-color);
+  /* box-shadow: inset 0 0 0 1px var(--main-font-color); */
   border-radius: 3px;
 }
 .range span{
