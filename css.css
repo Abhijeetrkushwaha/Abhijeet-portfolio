@@ -11,9 +11,10 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Manrope", sans-serif;
   --body-font: #fafafa;
-  --main-font-color: #f221e3;
+  --main-font-color: rgb(202, 52, 202);
   --secondary-font-color: #000;
 }
+/* #f221e3 */
 html {
   font-family: sans-serif;
   font-size: 10px;
