@@ -164,11 +164,9 @@ nav {
 .menu-icon {
   display: none;
   font-size: 3rem;
-<<<<<<< HEAD
   outline: none !important;
-=======
   cursor: pointer;
->>>>>>> a3e9df7c14a722f262d71b504f301c844df11b62
+
 }
 .nav-item {
   font-size: 2rem;
