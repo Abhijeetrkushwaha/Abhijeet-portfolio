@@ -165,7 +165,6 @@ nav {
   display: none;
   font-size: 3rem;
   cursor: pointer;
-  outline: none !important;
 }
 .nav-item {
   font-size: 2rem;
