@@ -164,7 +164,6 @@ nav {
 .menu-icon {
   display: none;
   font-size: 3rem;
-  cursor: pointer;
   outline: none !important;
 }
 .nav-item {
