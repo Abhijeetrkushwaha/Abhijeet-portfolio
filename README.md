@@ -1,4 +1,4 @@
 ## Abhijeet-portfolio
-![LOC MASCOT](https://abhijeetkwh.me/Images/portfolio12.jpg "portfolio")
+![HOME PAGE](https://abhijeetkwh.me/Images/Home-page.png "portfolio")
 
 
