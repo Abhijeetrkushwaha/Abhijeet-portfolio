@@ -494,14 +494,10 @@ nav {
   margin:.2rem 0 1rem;
   padding:.2rem 2.5rem;
 }
-.btn-1 {
-  display: inline-block;
-}
 .btn-1 i {
   display: inline-block;
   font-size: 2rem;
   color: var(--secondary-font-color);
-  margin-bottom:1rem;
 }
 /* contact */
 .contact {
