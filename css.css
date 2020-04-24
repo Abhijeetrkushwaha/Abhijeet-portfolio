@@ -506,7 +506,6 @@ nav {
 .contact {
   background: url("./Images/portfolio3.jpg") center no-repeat;
   background-size: cover;
-  background-attachment: fixed;
 }
 .form {
   width: 100%;
