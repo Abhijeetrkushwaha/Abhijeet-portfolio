@@ -1,12 +1,12 @@
-window.onload = function () {
-  const selectElement = (s) => document.querySelector(s);
-  setTimeout(() => {
-    selectElement("body").setAttribute("style", "overflow:auto;");
-  }, 2600);
-  setTimeout(function () {
-    $(".loader_bg").fadeToggle();
-  }, 2500);
+const selectElement = (s) => document.querySelector(s);
+setTimeout(() => {
+  selectElement("body").setAttribute("style", "overflow:auto;");
+}, 2600);
+setTimeout(function () {
+  $(".loader_bg").fadeToggle();
+}, 2500);
 
+window.onload = function () {
   selectElement(".open").addEventListener("click", () => {
     selectElement(".nav-list").classList.add("active");
   });
