@@ -36,6 +36,32 @@ window.onload = function () {
     filter: "",
     easing: "swing",
   });
+  window.sr = ScrollReveal();
+  sr.reveal(".about-info", {
+    origin: "bottom",
+    duration: 1000,
+    distance: "5rem",
+    delay: 600,
+  });
+  window.sr = ScrollReveal();
+  sr.reveal(".about-content", {
+    origin: "bottom",
+    duration: 1000,
+    distance: "5rem",
+    delay: 600,
+  });
+  window.sr = ScrollReveal();
+  sr.reveal(".method-item", {
+    origin: "bottom",
+    duration: 1000,
+    distance: "5rem",
+    delay: 600,
+  });
+  window.sr = ScrollReveal();
+  sr.reveal(".top", {
+    origin: "bottom",
+    duration: 500,
+    distance: "5rem",
+    delay: 600,
+  });
 };
-
-
