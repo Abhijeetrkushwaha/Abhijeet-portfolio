@@ -1,7 +1,7 @@
 const selectElement = (s) => document.querySelector(s);
 setTimeout(() => {
   selectElement("body").setAttribute("style", "overflow:auto;");
-}, 2600);
+}, 2500);
 setTimeout(function () {
   $(".loader_bg").fadeToggle();
 }, 2500);
