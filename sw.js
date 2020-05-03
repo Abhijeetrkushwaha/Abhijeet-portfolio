@@ -1,5 +1,22 @@
 const cacheName = "Portfolio";
-const staticAssets = ["./", "./index.html", "./main-js.js", "./site.webmanifest","./css.css","./page-nav.js"];
+const staticAssets = [
+  "./",
+  "./index.html",
+  "./main-js.js",
+  "./site.webmanifest",
+  "./css.css",
+  "./page-nav.js",
+  "./images/covidtracker.jpg",
+  "./images/ABHIYellow.jpg",
+  "./images/apple-touch-icon.png",
+  "./Images/favicon-32x32.png",
+  "./Images/portfolio2.jpg",
+  "./Images/todo.png",
+  "./Images/firstportfolio.png",
+  "./Images/covidtracker.jpg",
+  "./Images/portfolio3.jpg",
+  "./Images/logo1.png",
+];
 self.addEventListener("install", async (e) => {
   const cache = await caches.open(cacheName);
   await cache.addAll(staticAssets);
