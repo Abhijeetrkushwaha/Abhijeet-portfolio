@@ -6,9 +6,9 @@ const staticAssets = [
   "./site.webmanifest",
   "./css.css",
   "./page-nav.js",
-  "./images/covidtracker.jpg",
-  "./images/ABHIYellow.jpg",
-  "./images/apple-touch-icon.png",
+  "./Images/covidtracker.jpg",
+  "./Images/ABHIYellow.jpg",
+  "./Images/apple-touch-icon.png",
   "./Images/favicon-32x32.png",
   "./Images/portfolio2.jpg",
   "./Images/todo.png",
@@ -16,6 +16,11 @@ const staticAssets = [
   "./Images/covidtracker.jpg",
   "./Images/portfolio3.jpg",
   "./Images/logo1.png",
+  "./Images/portfolio12.jpg",
+  "./font-awesome/all.min.css",
+  "./Images/responsivewhite.png",
+  "./Images/designwhite.png",
+  "./Images/codewhite.png",
 ];
 self.addEventListener("install", async (e) => {
   const cache = await caches.open(cacheName);
