@@ -1,12 +1,22 @@
 const selectElement = (s) => document.querySelector(s);
-setTimeout(() => {
-  selectElement("body").setAttribute("style", "overflow:auto;");
-}, 2600);
-setTimeout(function () {
-  $(".loader_bg").fadeToggle();
-}, 2500);
+// setTimeout(() => {
+//   selectElement("body").setAttribute("style", "overflow:auto;");
+// }, 2600);
+// setTimeout(function () {
+//   $(".loader_bg").fadeToggle();
+// }, 2500);
 
 window.onload = function () {
+  registerSw();
+  async function registerSw() {
+    if ("serviceWorker" in navigator) {
+      try {
+        await navigator.serviceWorker.register("./sw.js");
+      } catch (error) {
+        console.log("Service Worker not found");
+      }
+    }
+  }
   selectElement(".open").addEventListener("click", () => {
     selectElement(".nav-list").classList.add("active");
   });
