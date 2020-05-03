@@ -23,7 +23,7 @@ html {
 body {
   background-color: var(--body-font);
   font-family: var(--secondary-font);
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 a {
   text-decoration: none;
