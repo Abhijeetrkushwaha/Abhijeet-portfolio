@@ -10,16 +10,16 @@ setTimeout(function () {
 // on window load this function will execute
 window.onload = function () {
 
-  registerSw();
-  async function registerSw() {
-    if ("serviceWorker" in navigator) {
-      try {
-        await navigator.serviceWorker.register("./sw.js");
-      } catch (error) {
-        console.log("Service Worker not found");
-      }
-    }
-  }
+  // registerSw();
+  // async function registerSw() {
+  //   if ("serviceWorker" in navigator) {
+  //     try {
+  //       await navigator.serviceWorker.register("./sw.js");
+  //     } catch (error) {
+  //       console.log("Service Worker not found");
+  //     }
+  //   }
+  // }
   // nav-List navigation
   selectElement(".open").addEventListener("click", () => {
     selectElement(".nav-list").classList.add("active");
