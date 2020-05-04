@@ -18,6 +18,8 @@ const staticAssets = [
   "./Images/responsivewhite.png",
   "./Images/designwhite.png",
   "./Images/codewhite.png",
+  "./font-awesome/all.min.css",
+  "./icons",
 ];
 self.addEventListener("install", async (e) => {
   const cache = await caches.open(cacheName);
