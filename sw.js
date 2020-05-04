@@ -18,6 +18,7 @@ const staticAssets = [
   "./Images/logo1.png",
   "./Images/portfolio12.jpg",
   "./font-awesome/all.min.css",
+  "./icons",
   "./Images/responsivewhite.png",
   "./Images/designwhite.png",
   "./Images/codewhite.png",
