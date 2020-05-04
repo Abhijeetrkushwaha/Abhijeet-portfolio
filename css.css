@@ -49,6 +49,7 @@ section {
 button {
   outline: none !important;
 }
+/* Loader */
 .loader_bg {
   position: fixed;
   z-index: 9999999;
@@ -119,6 +120,7 @@ button {
 }
 /* #09ffffff
   #09f */
+/* Header */
 .container {
   width: 100%;
   max-width: 100rem;
