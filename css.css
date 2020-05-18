@@ -403,10 +403,10 @@ nav {
   width: 90%;
 }
 .skill-item:hover .bootstrap{
-  width: 50%;
+  width: 20%;
 }
 .skill-item:hover .jquery{
-  width: 40%;
+  width: 20%;
 }
 .skill-item:hover .javascript{
   width: 80%;
