@@ -424,6 +424,10 @@ nav {
 .skill-item:hover .no{
   display: block;
 }
+.github-link{
+  text-align: center;
+  margin-bottom: 2rem;
+}
 /* portfolio */
 .portfolio {
   position: relative;
