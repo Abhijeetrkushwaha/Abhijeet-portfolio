@@ -417,6 +417,9 @@ nav {
 .skill-item:hover .XD{
   width: 70%;
 }
+.skill-item:hover .node-js{
+  width: 30%;
+}
 .no{
   display: none;
   transition: .4s;
