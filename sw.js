@@ -19,6 +19,7 @@ const staticAssets = [
   "./Images/designwhite.png",
   "./Images/codewhite.png",
   "./Images/Expensemanager.png",
+  "./Images/weather-app.png"
 ];
 self.addEventListener("install", async (e) => {
   const cache = await caches.open(cacheName);
